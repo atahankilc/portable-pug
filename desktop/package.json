@@ -1,0 +1,22 @@
+{
+  "name": "portable-pug-desktop",
+  "version": "1.0.0",
+  "private": true,
+  "main": "dist/main.js",
+  "scripts": {
+    "dev": "tsc && electron .",
+    "build": "tsc",
+    "pack:mac": "tsc && electron-builder --mac",
+    "pack:win": "tsc && electron-builder --win",
+    "pack:linux": "tsc && electron-builder --linux"
+  },
+  "dependencies": {
+    "electron-is-dev": "^2.0.0"
+  },
+  "devDependencies": {
+    "electron": "^35.0.0",
+    "electron-builder": "^26.0.0",
+    "typescript": "~5.9.2",
+    "@types/node": "^22.0.0"
+  }
+}
