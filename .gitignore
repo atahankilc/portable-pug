@@ -17,3 +17,10 @@ venv/
 .claude
 
 PLAN.md
+
+**env**
+
+backend/infra/keys/*.pem
+backend/infra/minio_data/
+backend/media/
+
